@@ -1,0 +1,11 @@
+version: "3.5"
+
+services:
+  dynhost:
+    restart: unless-stopped
+    build:
+      context: .
+    environment:
+      DOMAIN: my-domain.ext
+      USER: user
+      PASSWORD: pass
