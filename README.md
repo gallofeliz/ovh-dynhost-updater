@@ -1,3 +1,3 @@
-# dynhost updater
+# OVH dynhost updater
 
 See docker-compose
